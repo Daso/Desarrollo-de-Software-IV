@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<title>Saludo</title>
+		<link rel="stylesheet" type="text/css" href="saludo.css" />
+	</head>
+	<body>
+		<h1>Saludo</h1>
+		<div id="formulario">
+			<form method="post" action="proceso.php" name="saludo">	
+				<label for="texto">Nombre:</label>
+				<input class="ingreso" type="text" id="texto" name="nombre"/><br />
+				
+				<label for="pass">Password:</label>
+				<input class="ingreso" type="password" id="pass" name="password" /><br />
+				
+				<p>Seleccione su ingreso mensual</p>
+				
+				<input type="radio" id="r1" value="pobre" name="ingreso"/><label for="r1">0 - 100</label>
+				<br />
+				
+				<input type="radio" id="r2" value="medio" name="ingreso"/><label for="r2">101 - 1001</label>
+				<br />
+				
+				<input type="radio" id="r3" value="rico" name="ingreso"/><label for="r3">1001 - 1002</label>
+				<br />
+				<p>Qué sabores de helado sueles comer</p>
+				<input type="checkbox" id="choco" value="chocolate" name="chk01" /><label for="choco">Chocolate</label><br />
+				<input type="checkbox" id="vainilla" value="vainilla" name="chk02" /><label for="vainilla">Vainilla</label><br />
+				<input type="checkbox" id="menta" value="menta" name="chk03"  /><label for="menta">Menta</label><br />
+				
+				
+				<input class="boton" type="submit" value="saludar!" />
+				<input class="boton" type="reset" value="restaurar" />			
+			</form>
+		</div>
+	</body>
+
+
+</html>

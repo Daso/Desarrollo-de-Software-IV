@@ -1,0 +1,55 @@
+body{
+	background-color:yellow;	
+}
+
+#container{
+	width:800px;
+	height:500px;
+	border:2px solid #31B96E;
+	
+}
+
+#banner{
+	width:100%;
+	background-color:#616536;
+	height:100px;
+
+}
+
+#menu{
+	height:400px;
+	background-color:#A4E666;
+	width:250px;
+	float:left;
+	
+}
+
+
+
+#main{
+	height:400px;
+	background-color:white;
+	width:550px;
+	float:left;
+}
+
+#menu li a:link{
+	background-color:#31B96E;
+	display:block;
+	width:150px;
+	margin-top:15px;
+	height:50px;
+	text-decoration: none;	
+	color:white;
+	font-weight:bold;	
+}
+
+#menu li a:hover{
+	background-color:black;
+	color:red;
+}
+
+#menu li{
+	list-style:none;
+	text-align:center;
+}
