@@ -1,8 +1,26 @@
+*{
+	font-family:Verdana, arial, sans-serif;
+}
+
 body{
-	background-color:yellow;	
+		background-color:yellow;
+	background-image:url('images/paper.gif');
+}
+
+p{
+	margin:10px;
+	font-size:13px;
+}
+
+h1{
+	margin-left:10px;
+	font-size:20px;
+	color:#616536;
+	text-decoration:underline;
 }
 
 #container{
+
 	width:800px;
 	height:500px;
 	border:2px solid #31B96E;
@@ -10,13 +28,18 @@ body{
 }
 
 #banner{
+	
 	width:100%;
 	background-color:#616536;
 	height:100px;
+	background-image:url('images/apple.jpg');
+	background-repeat:no-repeat;
+	/*background-position:center;*/
 
 }
 
 #menu{
+
 	height:400px;
 	background-color:#A4E666;
 	width:250px;
@@ -24,16 +47,16 @@ body{
 	
 }
 
-
-
 #main{
+
 	height:400px;
 	background-color:white;
 	width:550px;
 	float:left;
+	
 }
 
-#menu li a:link{
+#menu li a:link, a:visited{
 	background-color:#31B96E;
 	display:block;
 	width:150px;
@@ -42,6 +65,7 @@ body{
 	text-decoration: none;	
 	color:white;
 	font-weight:bold;	
+	
 }
 
 #menu li a:hover{
@@ -50,6 +74,30 @@ body{
 }
 
 #menu li{
+	margin:0px;
+	padding:0px;
 	list-style:none;
 	text-align:center;
+	
+}
+#info{
+	color:green;
+	font-weight:bold;
+}
+#masInfo{
+	color:red;
+
+}
+
+#vinculo a:link{
+	color:black;
+}
+
+#vinculo a:hover{
+	color:yellow;
+}
+
+#vinculo{
+	text-align:right;
+	padding-right:10px;
 }
