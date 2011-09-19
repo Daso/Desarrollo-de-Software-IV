@@ -1,0 +1,12 @@
+#contenedor {
+	position:relative;
+	width: 400px;
+	height: 400px;
+	margin: 10% auto;
+	background: #2942c4;
+}
+
+#objeto {
+	position: absolute;
+	margin: 25% 25%;
+}

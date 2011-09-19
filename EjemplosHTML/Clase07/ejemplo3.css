@@ -1,0 +1,25 @@
+.absoluto {
+	position:fixed;
+	top: 10%;
+	right: 10%;
+
+
+}
+
+.relativo{
+	position: absolute;
+	top:-100px;
+	left: 20px;
+
+
+}
+
+#contenedor{
+position:relative;
+border:2px solid black;
+width:800px;
+height:400px;
+margin-top:300px;
+
+
+}

@@ -1,0 +1,43 @@
+#menu{
+	position:relative;
+	width:500px;
+	height:50px;
+	margin:10% auto;
+	background:yellow;
+	
+
+}
+
+#navi{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+#navi li{
+	margin:2px;
+	padding:2px;
+	/*border:1px solid #CCCCCC;*/
+	float:left;
+	
+	
+}
+
+#navi li a {
+	display:block;
+	width:80px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:white;
+	background-color:black;
+}
+
+#navi li a:hover{
+	color:#000099;
+	background-color:#00FF66;
+	text-decoration:underline;
+
+}
+

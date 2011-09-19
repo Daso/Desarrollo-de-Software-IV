@@ -1,0 +1,133 @@
+#menu {
+	position:relative;
+	width: 500px;
+	height: 50px;
+	margin: 10% auto;
+	background: #2942c4;
+
+
+}
+
+/*
+
+#menu {
+
+	list-style-type:square;
+
+}
+
+
+
+#menu {
+
+	list-style-type:circle;
+
+}
+
+
+
+#menu {
+
+	list-style-image:url(images/vineta.png);
+
+}
+
+list-style:none;
+
+
+#navi {  
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+	}
+
+
+
+#navi li {
+
+	margin:2px;
+
+	padding:2px;
+
+	border:1px solid#CCCCCC;
+
+	}
+	
+	
+	
+	#navi {  
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+#navi li {
+
+	margin:2px;
+
+	padding:2px;
+
+	border:1px solid #CCCCCC;
+
+	float:left; //para eliminar el comportamiento de elemento de bloque(salto de linea)
+
+}
+
+#navi {  
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+}
+
+#navi li {
+
+	margin:2px;
+
+	padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
+
+	float:left;
+
+}
+
+#navi li a {
+
+	display:block; //Convertimos el vínculo en un bloque.
+
+	width:100px;
+
+	padding:4px 0;
+
+	text-decoration:none;
+
+	text-align:center;
+
+	font-size:11px;
+
+	color:#FFFFFF;
+
+	background-color:#000000;
+
+}
+
+//Ahora vamos con el hover:
+
+#navi li a:hover {
+
+	color:#99CC00;
+
+	background-color:#003366;
+
+}
+*/
