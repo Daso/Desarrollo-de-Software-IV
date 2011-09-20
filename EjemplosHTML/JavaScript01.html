@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>	
+			<title>Ejemplo de formulario con JavaScript</title>
+			<script language="JavaScript">
+				function collectParams(){
+					var fname = document.myForm.fname.value;
+					var lname = document.myForm.lname.value;
+					var leng = document.myForm.leng.value;
+					document.write('<h1>Hola!, ' + fname + ' ' + lname + '</h1>');
+					document.write('<p>Tu lenguaje favorito es:' + leng + '</p>');
+					
+				}
+			
+			
+			</script>
+	</head>	
+	<body>
+		<form action="" method="get" name="myForm" id="myForm">
+			<label for="fname">Nombre:</label><input type="text" name="fname" id="fname"/><br/>
+			
+			<label for="lname">Apellido:</label><input type="text" name="lname" id="lname"/><br/>
+			
+			<h2>Ingresa tu languaje de programación preferido</h2>
+			<label for="leng">Lenguaje:</label><input type="text" name="leng" id="leng"/><br/>
+			<input type="button" name="Button" onClick="collectParams('fname','lname','leng');" value="Procesar" />
+		</form>
+	</body>
+
+</html>
