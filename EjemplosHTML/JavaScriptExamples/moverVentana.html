@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head><title>Confirm</title>
+	<script language="JavaScript">		
+		function moverVentana(aWindow){
+			var x = 0;
+			actualizarPosicion(x,aWindow);	
+		}								
+		function actualizarPosicion(x, aWindow){
+		
+			aWindow.moveBy(2,2);
+			if( x < 100){			
+				setTimeout(function(){actualizarPosicion(x,aWindow),50});
+				x++;			
+			}else
+				aWindow.close();		
+		}		
+	</script>
+</head>
+<body>
+	<script language="JavaScript">
+	
+		var opciones="left = 100, top = 100, width = 250, height = 150";
+		mi_ventana = window.open("","",opciones);
+		mi_ventana.document.write("Prueba de abrir ventanas");
+		mi_ventana.moveTo(400,100);
+		moverVentana(mi_ventana);
+	</script>
+
+</body>
+</html>

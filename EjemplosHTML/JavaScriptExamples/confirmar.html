@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head><title>Confirm</title>
+	<script>
+	function confirmar(){
+			var respuesta;
+			respuesta = window.confirm("¿seguro vas a hacer click?");
+			if(respuesta){
+				document.write("Hiciste click!");		
+			}else{
+			
+				document.write("Cancelaste!");
+			}	
+		}
+	</script>
+</head>
+<body onload="confirmar()";>
+
+
+</body>
+</html>
